@@ -3570,14 +3570,7 @@ a img {
   margin: 0 auto;
 }
 
-#illustration {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 90%;
-  max-width: 960px;
-  margin: 0 auto;
-}
+
 
 @media only screen and (min-width: 550px) {
   #projects {
@@ -3588,22 +3581,39 @@ a img {
 .user-projects {
   margin: 20px auto;
 } 
-.user-illustration{
+
+#illustration {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;  
+  flex-direction: column;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
 }
-.col-one{
-  flex: 25%;
-  max-width: 25%;
+.user-illustration{
+  display: flex; 
+  flex-wrap: wrap;    
   padding: 0px 4px;
 }
-.col-one img{
-  max-width: 100%;
+.col-one{  
+  flex: 25%;
+  padding: 0 4px;
+}
+.col-one img{ 
+  margin-top: 8px;
   vertical-align: middle;
+  /* vertical-align: middle; */
   /* min-height: auto;
   border-radius: 5px;
   border: 5px solid red; */
+  
+  /* max-height: 100%; */
+  max-width: 100%;
+  /* min-width: 100%; */
+  /* min-height: auto; */
+  /* margin: 4px 0px; */
+  /* border-radius: 4px;  */
+  /* vertical-align: bottom; */
 }
 
 .user-illustration picture img {
