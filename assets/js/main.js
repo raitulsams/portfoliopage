@@ -24,3 +24,8 @@ window.ityped.init(document.querySelector(".iTyped"), {
     // Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
     stringsElement: null,
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+    new Glide('.glide').mount();
+
+});

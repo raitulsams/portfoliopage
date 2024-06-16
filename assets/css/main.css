@@ -3744,7 +3744,7 @@ a img {
   color: #1488cc;
   background-color: transparent;
   border: 1px solid #1488cc;
-  border-radius: 10px;
+    border-radius: 4px;
   text-align: center;
   outline: 0;
   text-decoration: none;
@@ -3752,6 +3752,7 @@ a img {
   transition: color 0.3s ease-out, background-color 0.3s ease-out,
     border-color 0.3s ease-out;
 }
+
 
 .project-link:active,
 .project-link:hover {
