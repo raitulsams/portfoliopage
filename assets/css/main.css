@@ -216,10 +216,7 @@ template {
   display: none;
 }
 
-/*!
- *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
- *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
- */
+
 @-webkit-keyframes fa-spin {
   0% {
     -webkit-transform: rotate(0deg);
@@ -245,6 +242,7 @@ template {
 }
 
 @-webkit-keyframes pulse {
+
   0%,
   to {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
@@ -263,6 +261,7 @@ template {
 }
 
 @keyframes pulse {
+
   0%,
   to {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
@@ -283,13 +282,11 @@ template {
 @font-face {
   font-family: "FontAwesome";
   src: url(../fonts/fontawesome-webfont.eot?v=4.7.0);
-  src: url(../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0)
-      format("embedded-opentype"),
+  src: url(../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format("embedded-opentype"),
     url(../fonts/fontawesome-webfont.woff2?v=4.7.0) format("woff2"),
     url(../fonts/fontawesome-webfont.woff?v=4.7.0) format("woff"),
     url(../fonts/fontawesome-webfont.ttf?v=4.7.0) format("truetype"),
-    url(../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular)
-      format("svg");
+    url(../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular) format("svg");
   font-weight: 400;
   font-style: normal;
 }
@@ -336,7 +333,7 @@ template {
   list-style-type: none;
 }
 
-.fa-ul > li {
+.fa-ul>li {
   position: relative;
 }
 
@@ -3415,6 +3412,7 @@ a img {
   /* color: #fff; */
   /* margin-top: 10px; */
 }
+
 .typed_wrap {
   display: block;
   width: 100%;
@@ -3425,9 +3423,11 @@ a img {
   margin-top: 10px;
   font-size: 20px;
 }
+
 .typed_item {
   display: block;
 }
+
 @media only screen and (min-width: 550px) {
   .header .site-description {
     font-size: 40px;
@@ -3588,73 +3588,61 @@ a img {
   max-width: 960px;
   margin: 0 auto;
 }
+
 .user-illustration {
   display: flex;
   flex-wrap: wrap;
   padding: 0px 4px;
 }
 
-.img-content {
-  position: absolute;
-  top: 50%;  
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5); /* Black see-through */
-  color: #ffffff9f;
-  width: 100%;
-  transition: 0.5s ease;
-  opacity: 0;  
-  text-align: center;
-  font-size: 0.8rem;
-  font-style: italic;
-} 
 .img-source {
-  position: relative; 
+  position: relative;
   overflow: hidden;
-  
+
   -webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-out;
-	transition: .3s ease-out;
+  transform: scale(1);
+    -webkit-transition: .3s ease-out;
+    transition: .3s ease-out;
 }
+
 .img-source::before {
   position: absolute;
   top: 0;
   left: -85%;
   z-index: 2;
   display: block;
-  content: ""; 
+  content: "";
   width: 50%;
   height: 100%;
-  background: -webkit-linear-gradient(
-    left,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(255, 255, 255, 0.5) 100%
-  );
-  background: linear-gradient(
-    to right,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(255, 255, 255, 0.5) 100%
-  );
+  background: -webkit-linear-gradient(left,
+        rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.5) 100%);
+        background: linear-gradient(to right,
+            rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.5) 100%);
   -webkit-transform: skewX(-25deg);
   transform: skewX(-25deg);
 }
+
 .img-source:hover::before {
   -webkit-animation: shine 1s;
-  animation: shine 1s; 
+  animation: shine 1s;
 }
-.img-source:hover{
+.img-source:hover {
   -webkit-transform: scale(1.01);
-	transform: scale(1.01);
+  transform: scale(1.01);
   z-index: 1;
 }
-.img-container:hover .img-content{
+.img-container:hover .img-content {
   opacity: 1;
-} 
+}
+
 @-webkit-keyframes shine {
   100% {
     left: 125%;
   }
 }
+
 @keyframes shine {
   100% {
     left: 125%;
@@ -3665,6 +3653,7 @@ a img {
   flex: 25%;
   padding: 0 4px;
 }
+
 .col-one img {
   margin-top: 8px;
   vertical-align: middle;
