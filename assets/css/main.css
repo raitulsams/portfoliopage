@@ -179,6 +179,11 @@ progress {
 textarea {
   overflow: auto;
 }
+.site-title,
+.typed_item,
+.link {
+  user-select: none;
+}
 
 [type="checkbox"],
 [type="radio"],
